@@ -7,6 +7,14 @@ const sun = () => {
   pop();
 };
 
+const planet = (color, distanceFromSun) => {
+  push();
+  fill(color);
+  translate(distanceFromSun, 0, 0);
+  sphere(50);
+  pop();
+};
+
 function setup() {
   createCanvas(1900, 940, WEBGL);
   background("black");
@@ -15,15 +23,6 @@ function setup() {
 function draw() {
   sun();
 
-  push();
-  fill("blue");
-  translate(500, 0, 0);
-  sphere(50);
-  pop();
-
-  push();
-  fill("red");
-  translate(-300, 0, 0);
-  sphere(50);
-  pop();
+  planet("blue", 500);
+  planet("red", -300);
 }
