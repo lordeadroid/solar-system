@@ -13,4 +13,10 @@ function draw() {
   translate(500, 0, 0);
   sphere(50);
   pop();
+
+  push();
+  fill("blue");
+  translate(-300, 0, 0);
+  sphere(50);
+  pop();
 }
