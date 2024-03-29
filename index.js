@@ -17,10 +17,11 @@ const planet = (color, distanceFromSun) => {
 
 function setup() {
   createCanvas(1900, 940, WEBGL);
-  background("black");
 }
 
 function draw() {
+  background("black");
+
   sun();
 
   planet("blue", 500);
