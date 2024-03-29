@@ -7,4 +7,8 @@ function draw() {
 
   fill("yellow");
   sphere(200);
+
+  fill("blue");
+  translate(500, 0, 0);
+  sphere(50);
 }
