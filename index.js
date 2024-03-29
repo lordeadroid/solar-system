@@ -8,7 +8,9 @@ function draw() {
   fill("yellow");
   sphere(200);
 
+  push();
   fill("blue");
   translate(500, 0, 0);
   sphere(50);
+  pop();
 }
