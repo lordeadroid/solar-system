@@ -1,3 +1,12 @@
+const sun = () => {
+  push();
+  fill("yellow");
+  rotateZ(radians(6));
+  rotateY(frameCount * 100);
+  sphere(200);
+  pop();
+};
+
 function setup() {
   createCanvas(1900, 940, WEBGL);
 }
@@ -5,12 +14,7 @@ function setup() {
 function draw() {
   background(0);
 
-  push();
-  fill("yellow");
-  rotateZ(radians(6));
-  rotateY(frameCount * 100);
-  sphere(200);
-  pop();
+  sun();
 
   push();
   fill("blue");
