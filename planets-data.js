@@ -20,13 +20,13 @@ const planetsData = {
   mars: {
     distance: 3.9,
     speed: 21,
-    color: "rust",
+    color: "brown",
     orbitalTilt: 1.7,
   },
   jupiter: {
     distance: 5.2,
     speed: 8.5,
-    color: "brown",
+    color: "tan",
     orbitalTilt: 0.3,
   },
   saturn: {
