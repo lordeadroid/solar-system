@@ -9,11 +9,10 @@ const sun = () => {
 
 function setup() {
   createCanvas(1900, 940, WEBGL);
+  background("black");
 }
 
 function draw() {
-  background(0);
-
   sun();
 
   push();
