@@ -8,6 +8,7 @@ function draw() {
   push();
   fill("yellow");
   rotateZ(radians(6));
+  rotateY(frameCount * 100);
   sphere(200);
   pop();
 
