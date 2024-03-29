@@ -1,8 +1,8 @@
-const planet = (color, distanceFromSun) => {
+const planet = ({ distance, speed, color }) => {
   push();
   fill(color);
   rotateY(frameCount * 0.01);
-  translate(distanceFromSun, 0, 0);
-  sphere(50);
+  translate(distance * 120, 0, 0);
+  sphere(40);
   pop();
 };

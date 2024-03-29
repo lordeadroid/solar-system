@@ -16,6 +16,5 @@ function draw() {
 
   sun();
 
-  planet("blue", 500);
-  planet("red", -300);
+  Object.values(planetsData).forEach(planet);
 }
