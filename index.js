@@ -4,4 +4,7 @@ function setup() {
 
 function draw() {
   background(0);
+
+  fill("yellow");
+  sphere(200);
 }
