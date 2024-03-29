@@ -9,6 +9,7 @@ const sun = () => {
 
 function setup() {
   createCanvas(1900, 940, WEBGL);
+  normalMaterial();
 }
 
 function draw() {
