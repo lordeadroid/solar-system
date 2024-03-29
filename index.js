@@ -5,8 +5,11 @@ function setup() {
 function draw() {
   background(0);
 
+  push();
   fill("yellow");
+  rotateZ(radians(6));
   sphere(200);
+  pop();
 
   push();
   fill("blue");
